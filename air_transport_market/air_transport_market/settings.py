@@ -65,7 +65,6 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
     "air_transport_market.pipelines.AirTransportMarketPipeline": 300,
     'scrapy.pipelines.files.FilesPipeline': 1,
-    'air_market_data.pipelines.PdfDataExtractionPipeline': 100,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
